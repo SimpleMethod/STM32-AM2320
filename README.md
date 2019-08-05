@@ -14,7 +14,7 @@ Example of program operation:
 ![enter image description here](https://raw.githubusercontent.com/SimpleMethod/STM32-AM2320/master/Images/am2320_Atolic_TrueSTUDIO.png)
 
 Example code: 
-**Remember the address of the device should be shifted one bit to the left!** 
+**Remember the address of the device must be left shift by one bit. It is also important to remember about pull-up resistors e.g. 4.7kΩ** 
 
     /* Private includes ----------------------------------------------------------*/
     /* USER CODE BEGIN Includes */
