@@ -13,7 +13,21 @@ Example of program operation:
 ### **If you want to use printf and return float number you must add the flag -u _printf_float in C compiler**
 ![enter image description here](https://raw.githubusercontent.com/SimpleMethod/STM32-AM2320/master/Images/am2320_Atolic_TrueSTUDIO.png)
 
-Example code: 
+**Pin setting**
+
+```markdown
+| PERIPHERALS | MODES                 | FUNCTIONS      | PINS              |
+|-------------|-----------------------|----------------|-------------------|
+| I2C1        | I2C                   | I2C1_SCL       | PB8               |
+| I2C1        | I2C                   | I2C1_SDA       | PB9               |
+| SYS         | Trace Asynchronous Sw | SYS_JTMS-SWDIO | PA13              |
+| SYS         | Trace Asynchronous Sw | SYS_JTCK-SWCLK | PA14              |
+| SYS         | Trace Asynchronous Sw | SYS_JTDO-SWO   | PB3               |
+| SYS         | SysTick               | SYS_VS_Systick | VP_SYS_VS_Systick |
+| USART2      | Asynchronous          | USART2_RX      | PA3               |
+| USART2      | Asynchronous          | USART2_TX      | PA2               |
+```
+**Example code:**
 **Remember the address of the device must be left shift by one bit. It is also important to remember about pull-up resistors e.g. 4.7kΩ** 
 
     /* Private includes ----------------------------------------------------------*/
