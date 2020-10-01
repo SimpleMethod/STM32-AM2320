@@ -8,12 +8,12 @@ Minimum reading time with sensor response:
 Example of program operation:
 ![enter image description here](https://raw.githubusercontent.com/SimpleMethod/STM32-AM2320/master/Images/am2320_RealTerm.png)
 
-**IMPORTANT!**
 
-### **If you want to use printf and return float number you must add the flag -u _printf_float in C compiler**
+
+### **For using printf with float should be add flag -u _printf_float in C compiler**
 ![enter image description here](https://raw.githubusercontent.com/SimpleMethod/STM32-AM2320/master/Images/am2320_Atolic_TrueSTUDIO.png)
 
-**Pin setting**
+# Pin setting:
 
 ```markdown
 | PERIPHERALS | MODES                 | FUNCTIONS      | PINS              |
@@ -27,8 +27,7 @@ Example of program operation:
 | USART2      | Asynchronous          | USART2_RX      | PA3               |
 | USART2      | Asynchronous          | USART2_TX      | PA2               |
 ```
-**Example code:**
-**Remember the address of the device must be left shift by one bit. It is also important to remember about pull-up resistors e.g. 4.7kΩ** 
+# Example:
 
     /* Private includes ----------------------------------------------------------*/
     /* USER CODE BEGIN Includes */
