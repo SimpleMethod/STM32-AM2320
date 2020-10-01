@@ -4,7 +4,7 @@
  *  Created on: 01.10.2020
  *      Author: SimpleMethod
  *  
- *Copyright 2019 SimpleMethod
+ *Copyright 2020 SimpleMethod
  *
  *Permission is hereby granted, free of charge, to any person obtaining a copy of
  *this software and associated documentation files (the "Software"), to deal in
